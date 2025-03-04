@@ -30,8 +30,15 @@ chmod +x plsrunmeiamnotmalwarefr
 ```
 8. Jalankan menggunakan command di terminal linux.
 ```bash
-./plsrunmeiamnotmalwarefr
+./plsrunmeiamnotmalwarefr && ps aux
 ```
 9. Buat file bernama ransom.moolah, lalu periksa kembali untuk memastikan keberhasilannya.
 ```bash
+touch ransom.moolah
+```
+10. Pastikan programnya sudah mati.
+```bash
+kill
+```
+
 

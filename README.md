@@ -38,7 +38,7 @@ touch ransom.moolah
 ```
 10. Pastikan programnya sudah mati.
 ```bash
-kill
+ps -o ppid -p (PID) && kill -9 (PPID)
 ```
 
 
